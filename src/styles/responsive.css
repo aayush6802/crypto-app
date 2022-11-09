@@ -1,0 +1,29 @@
+.appBtn {
+  display: none;
+}
+
+.header {
+  background-color: aqua;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    width: 100vw;
+    height: 100vh;
+  }
+  .navLinks {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .navLinks button {
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid #f7542f;
+    padding-bottom: 4px;
+  }
+  .appBtn {
+    display: inline-block;
+    z-index: 10;
+    position: absolute;
+  }
+}
